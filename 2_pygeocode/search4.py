@@ -25,6 +25,7 @@ def geocode(address):
             break
         raw_reply += more
     print(raw_reply.decode('utf-8'))
+    print(address)
 
 
 if __name__ == '__main__':
