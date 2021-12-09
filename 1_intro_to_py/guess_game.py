@@ -34,7 +34,7 @@ for run in range(tries):
 
     if correct:
         print("Acertô miseravi!")
-        points += (tries * level)
+        points += (tries - run) * level
         break
     else:
         if bigger:
